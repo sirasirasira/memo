@@ -1,0 +1,31 @@
+# vim
+	$ pip install https://github.com/ipython-contrib/IPython-notebook-extensions/archive/master.zip --user
+	$ pip install jupyterthemes
+	$ jt -t chesterish -T -f roboto -fs 9 -tf merriserif -tfs 11 -nf ptsans -nfs 11 -dfs 8 -ofs 8
+	$ jupyter --path
+	$ git clone https://github.com/lambdalisue/jupyter-vim-binding {path}/nbextensions/vim_binding
+
+	chech vim biding
+	~/.jupyter/custom/custom.css
+		~~~~~~~~~~~~~~~~~
+		/* Jupyter cell is in normal mode when code mirror */
+		.edit_mode .cell.selected .CodeMirror-focused.cm-fat-cursor {
+			background-color: #000000 !important;
+		}
+		/* Jupyter cell is in insert mode when code mirror */
+		.edit_mode .cell.selected .CodeMirror-focused:not(.cm-fat-cursor) {
+			background-color: #000000 !important;
+		}
+		~~~~~~~~~~~~~~~~~
+		div.cell.edit_mode {
+		~~~~~~~~~~~~~~~~~
+		#notebook-container {
+		 padding: 16px 2px;
+		 background-color: #1a2028;
+		 min-height: 0px;
+		 box-shadow: none;
+		 width: 1200px;
+		 margin-right: auto;
+		 margin-left: auto;
+		}
+		~~~~~~~~~~~~~~~~~

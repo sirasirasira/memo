@@ -1,0 +1,21 @@
+git status "今の状況"
+git add "保存するものを選択"
+git commit "保存"
+git push "githubのリポジトリにpush"
+git checkout [filename] "ファイルを元に戻す"
+git checkout -f "全てのファイルを元に戻す"
+
+git add -A すべて
+git add -A hoge hoge ファイルが消されたときのadd(他のファイルは add しない)
+
+"github" のユーザ名、パスワードを省略
+	git config --global user.name hogehoge
+	git config --global user.email hoge@hoge
+	githubのページから"ssh"でclone
+
+git branch hoge "hoge branchの作成"
+git checkout hoge "hoge branchへの移動"
+
+git fetch "localにremoteの変更を反映"
+git rebase hoge "current branchをhogeに付け替え"
+git rebase -i "commitの統合"

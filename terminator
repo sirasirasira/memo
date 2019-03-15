@@ -1,0 +1,12 @@
+terminator -b で　枠なしのかっこいいの
+
+Shift Ctrl o : 縦に増える
+Shift Ctrl e : 横に増える
+Shift Ctrl w : 消す
+window r       : 回転
+Shift window r : 逆回転
+
+
+Alt 矢印     : 移動
+だったのを変えて
+Shift Ctrl hjkl : vim チックな移動

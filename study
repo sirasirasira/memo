@@ -1,0 +1,22 @@
+今後やること
+・DAG
+・モデル
+	Extremely randomized trees
+	RF
+		全探索、選択確立
+		Kパス
+			キャッシュ有
+			キャッシュ無
+	XGBoost
+	Additive Groves
+	Gradient Boosting
+・確率的枝刈り
+・gBoost最良優先探索
+	
+メモ
+IBIS_ml
+
+キーワード
+・アイテムセットマイニング	LCM, grafting, motif
+・探索速度					BFS, closed_graph_mining, rondom_search
+・graph_try
