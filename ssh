@@ -1,3 +1,3 @@
 remote jupyter をローカルブラウザで扱う
 ssh -L 8888:localhost:8888 username@hostname -Y でログイン
-ssh -L 8888:localhost:20110 bebit-db
+ssh -L 8888:localhost:20110 bebit-dp
