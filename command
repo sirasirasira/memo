@@ -14,10 +14,10 @@ diff hoge fuga
 	左側の出力が右側の入力に
 
 プログラムの詳細（各関数の重みなど）
+pip install gprof2dot
 *コンパイル時 -pg
-*pyenv local (python3)
-*プログラム実行
-gprof ./実行ファイル | ./gprof2dot.py --strip | dot -Tpng -o 出力ファイル名
+perf record -g ./実行ファイル arg1 arg2 ...
+perf script | gprof2dot -f perf --strip | dot -Tpng -o 出力ファイル名.png
 
 水平連結
 paste hoge fuga
